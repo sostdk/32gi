@@ -1,0 +1,42 @@
+html,body { overflow-x: hidden;}
+img {width:100%;height:auto;}
+/*Framework override*/
+.card .card-image .card-title {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px rgba(0,0,0, 0.6); }
+
+header {
+  position:fixed; 
+}
+
+main {
+
+  section {
+    min-height: 10vh;
+    width:100%;
+
+  }
+
+  #aboveTheFold {
+    min-height: 10vh;
+    position:relative;
+    z-index: -10;
+    background: url('../img/background.jpg') fixed no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .dottedOverlay {
+    position: fixed;
+    z-index: -10;
+    width: 100%;
+    height: 200vh;
+    background-color: #000;
+    top: -10vh;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+}
+
+footer {
+
+}
