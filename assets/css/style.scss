@@ -11,7 +11,11 @@ nav i.material-icons {font-size: 3em !important;}
 header {
   position:fixed;
   z-index: 9999;
-
+  .brand-logo {
+    display:none;
+    width:110px;
+    margin-top:-20px;
+  }
 }
 
 @media (min-width: 992px){
@@ -20,8 +24,10 @@ header {
     transition: all .2s;
   }
   .background {
-    background-color: #000;height:auto;width:100%;
+    background-color: #263238;height:auto;width:100%;
     transition: all .2s;
+    .brand-logo {display:block;}
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
   }
 }
 

@@ -18,6 +18,7 @@
     <nav class="transparent">
       <div class="nav-wrapper">
         <div class="container">
+        <a href="#!" class="brand-logo"><img src="http://i.imgur.com/yNbcG95.png"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="produkter.html">Produkter</a></li>
@@ -151,7 +152,7 @@ $(document).ready(function(){
       $(window).scroll(function() {
           var scroll = $(window).scrollTop();
 
-          if (scroll >= 50) {
+          if (scroll >= 200) {
               header.removeClass('clearHeader').addClass("background");
           } else {
               header.removeClass("background").addClass('clearHeader');
