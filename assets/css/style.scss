@@ -2,12 +2,27 @@ html,body { overflow-x: hidden;}
 img {width:100%;height:auto;}
 /*Framework override*/
 nav { box-shadow:none; }
+nav .button-collapse {text-shadow: 0px 0px 8px #000;}
+nav i.material-icons {font-size: 3em !important;}
 .card .card-image .card-title {
   text-transform: uppercase;
   text-shadow: 1px 1px 6px rgba(0,0,0, 0.6); }
 
 header {
   position:fixed;
+  z-index: 9999;
+
+}
+
+@media (min-width: 992px){
+  .clearHeader {
+    background-color:transparent;height:auto;width:100%;
+    transition: all .2s;
+  }
+  .background {
+    background-color: #000;height:auto;width:100%;
+    transition: all .2s;
+  }
 }
 
 main {
