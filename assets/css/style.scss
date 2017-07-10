@@ -39,9 +39,25 @@ header {
       @include transition($bezierpath);
     }
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),
-    0 1px 18px 0 rgba(0,0,0,0.12), 
+    0 1px 18px 0 rgba(0,0,0,0.12),
     0 3px 5px -1px rgba(0,0,0,0.3);
   }
+}
+
+
+#map_canvas {
+  width: 100%;
+  height: 400px;
+  width:100%;
+  position: relative;
+}
+
+#locations li {
+  width:100%;text-align: right;
+}
+#locations li:hover h4, #locations li.hover h4 {
+  color: red; text-shadow: 0 1px 0px rgba(255,255,255,0.3);
+  cursor: pointer;
 }
 
 main {
