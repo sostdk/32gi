@@ -6,7 +6,7 @@ img {width:100%;height:auto;}
   text-shadow: 1px 1px 6px rgba(0,0,0, 0.6); }
 
 header {
-  position:fixed; 
+
 }
 
 main {
@@ -21,7 +21,7 @@ main {
     min-height: 10vh;
     position:relative;
     z-index: -10;
-    background: url('../img/background.jpg') fixed no-repeat 50% 50%;
+    background: url('http://i.imgur.com/XmAYN5O.jpg') fixed no-repeat 50% 50%;
     background-size: cover;
   }
   .dottedOverlay {
