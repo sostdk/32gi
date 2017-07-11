@@ -50,10 +50,19 @@ header {
   height: 400px;
   width:100%;
   position: relative;
+  border-radius: 5px;
+  transition: all .2s;
 }
 ul#locations {
   margin:0;padding:0;
 }
+ul#locations li a.btn {
+      background-color: #ef6c00 !important;
+}
+ul#locations li.hover a.btn {
+      background-color: #e65100 !important;
+}
+
 #locations li {
   text-align: right;
   font-size: 12px;
@@ -71,6 +80,7 @@ ul#locations {
     line-height: 1em;
     font-weight: 100;
   }
+
 }
 
 main {
