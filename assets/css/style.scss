@@ -51,16 +51,26 @@ header {
   width:100%;
   position: relative;
 }
-
+ul#locations {
+  margin:0;padding:0;
+}
 #locations li {
   text-align: right;
+  font-size: 12px;
+  margin: 10px 0;
   @media (max-width: 600px) {
     text-align:left;
   }
-}
-#locations li:hover h4, #locations li.hover h4 {
-  color: red; text-shadow: 0 1px 0px rgba(255,255,255,0.3);
-  cursor: pointer;
+  h6 {
+    margin:0;padding:0;
+    line-height: 2.2em;
+    font-weight: 900;
+  }
+  p {
+    margin:0;padding:0;
+    line-height: 1em;
+    font-weight: 100;
+  }
 }
 
 main {
