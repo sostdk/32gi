@@ -163,3 +163,37 @@ footer {
   }
 
 }
+
+/*Pages*/
+#pages {
+  h1 {
+    padding: 10vh 0;
+    width:100%;
+    text-align:center;
+    font-weight: 100;
+  }
+  .carousel {
+    padding: 5vh 0;
+  }
+
+  footer.row {
+    padding: 10vh 0;
+    margin:0;
+    ul {
+      li {
+        h2 {
+          width:100%;
+          text-align: center;
+          color: #fff;
+          font-style: normal;
+        }
+        h4 {
+          width:100%;
+          text-align: center;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+}

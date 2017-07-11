@@ -4,6 +4,8 @@ $(document).ready(function(){
 
   $('.scrollspy').scrollSpy();
 
+  $('.carousel').carousel();
+
   $('.button-collapse').sideNav({
       menuWidth: 250,
       edge: 'right',
