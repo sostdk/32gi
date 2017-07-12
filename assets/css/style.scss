@@ -197,3 +197,7 @@ footer {
   }
 
 }
+
+.collapsible li.disabled .collapsible-body {
+    display: none !important; 
+}
