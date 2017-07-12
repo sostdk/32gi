@@ -1,7 +1,8 @@
 
 
 $(document).ready(function(){
-
+	$('.collapsible').collapsible();
+	
   $('.scrollspy').scrollSpy();
 
   $('.carousel').carousel();
