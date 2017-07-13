@@ -56,6 +56,7 @@ header {
 ul#locations {
   margin:0;padding:0;
 }
+ul#locations li { margin:5px 0;padding:0; }
 ul#locations li a.btn {
       background-color: #ef6c00 !important;
 }
@@ -65,19 +66,21 @@ ul#locations li.hover a.btn {
 
 #locations li {
   text-align: right;
-  font-size: 12px;
+  font-size: 11px;
   margin: 10px 0;
   @media (max-width: 600px) {
     text-align:left;
   }
+  .btn-large { height:68px;width:100%; }
   h6 {
     margin:0;padding:0;
-    line-height: 2.2em;
+    line-height: 2em;
     font-weight: 900;
   }
   p {
     margin:0;padding:0;
-    line-height: 1em;
+    line-height: 1.1em;
+    font-size: 11px;
     font-weight: 100;
   }
 
@@ -199,5 +202,5 @@ footer {
 }
 
 .collapsible li.disabled .collapsible-body {
-    display: none !important; 
+    display: none !important;
 }

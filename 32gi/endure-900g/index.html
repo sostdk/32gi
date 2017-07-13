@@ -69,11 +69,10 @@
 <p>
 
 <div class="row">
-	
-  <ul class="collapsible" data-collapsible="accordion">
+
+  <ul class="collapsible popout" data-collapsible="accordion">
     <li class="disabled">
       <div class="collapsible-header"><i class="material-icons">payment</i>Vejledende udsalgspris: <b>DKK 100,-</b></div>
-      <div class="collapsible-body"><span>Død og ødelæggelse</span></div>
     </li>
      <li>
       <div class="collapsible-header"><i class="material-icons">whatshot</i>Næringsindhold</div>
@@ -156,7 +155,7 @@
       <div class="collapsible-body"><span>Put to skefulde (50 gram) 32Gi Endure pulver i en drikkedunk og mix med 650-750ml vand. Blandingen giver nok energi til to timer.</span></div>
     </li>
   </ul>
-        
+
 </div>
 
     </div>
@@ -179,12 +178,34 @@
 
 </main>
 
-<!--Jquery import / Retro v. -->
+<!--Jquery import / Retro v. + Json for Schema -->
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.6.0/jquery.json.min.js"></script>
 <!--Materialize Framework-->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <!--Google MAPS-->
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyC2vE4GS-m_5u3LLZhu0o6umhyftsnf--s"></script>
 <script type="text/javascript" src="../../assets/includes/libraryinit.js"></script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "32gi Endure 900g",
+  "image": "https://32gi.dk/32gi/endure-900g/32gi-endure-900g-orange.jpg",
+  "url": "https://32gi.dk/32gi/endure-900g/",
+  "description": "Samme som i description",
+  "brand": {
+    "@type": "Thing",
+    "name": "32gi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "DKK",
+    "price": "100"
+  }
+}
+</script>
 </body>
 </html>

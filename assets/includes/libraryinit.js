@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 	$('.collapsible').collapsible();
-	
+
   $('.scrollspy').scrollSpy();
 
   $('.carousel').carousel();
@@ -93,3 +93,6 @@ $(document).ready(function(){
     $("#locations li:first").trigger("click");
 
   });
+
+
+	
