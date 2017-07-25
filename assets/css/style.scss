@@ -25,7 +25,7 @@ header {
     opacity:0;
     @include transition($bezierpath);
     width:110px;
-    margin-top:-20px;
+    margin-top: 10px;
   }
 }
 
