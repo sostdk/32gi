@@ -8,8 +8,8 @@ $(document).ready(function(){
   $('.carousel').carousel();
 
   $('.button-collapse').sideNav({
-      menuWidth: 250,
-      edge: 'right',
+      menuWidth: 200,
+      edge: 'left',
       closeOnClick: true,
       draggable: true,
       onOpen: function(el) {  },
@@ -93,6 +93,3 @@ $(document).ready(function(){
     $("#locations li:first").trigger("click");
 
   });
-
-
-	
