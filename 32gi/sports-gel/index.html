@@ -17,28 +17,28 @@
 
 <header>
 
-<div class="navbar-fixed">
+  <div class="navbar-fixed">
     <nav class="blue-grey darken-4 z-depth-2">
       <div class="nav-wrapper">
         <div class="container">
-        <a href="../../index.html" class="brand-logo" style="opacity:1;"><img src="../../assets/img/32GI.svg"></a>
+        <a href="../../index.html" class="brand-logo" style="opacity:1;"><img src="../../assets/img/logo.png"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="../../index.html#produktOversigt">Produkter</a></li>
           <li><a href="../../index.html#forhandlerOversigt">Forhandlere</a></li>
           <li><a href="../../index.html#atleter">Atleter</a></li>
-          <li><a href="../../index.html#kontaktOplysninger" >Bestilling</a></li>
+          <li><a href="../../index.html#kontaktOplysninger">Bliv Forhandler</a></li>
         </ul>
         </div>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="../../index.html#produktOversigt">Produkter</a></li>
           <li><a href="../../index.html#forhandlerOversigt">Forhandlere</a></li>
           <li><a href="../../index.html#atleter">Atleter</a></li>
-          <li><a href="../../index.html#kontaktOplysninger">Bestilling</a></li>
+          <li><a href="../../index.html#kontaktOplysninger">Bliv Forhandler</a></li>
         </ul>
       </div>
     </nav>
-</div>
+  </div>
 
 </header>
 
@@ -69,8 +69,15 @@
     <li class="disabled">
       <div class="collapsible-header"><i class="material-icons">payment</i>Vejledende udsalgspris: <b>DKK 19,-</b></div>
     </li>
-     <li>
-    	<div class="collapsible-header"><i class="material-icons">filter_none</i>Varianter:</div>
+     <li class="tooltipped" data-position="right" data-delay="50" data-tooltip="Tryk for mere info">
+    	<div class="collapsible-header"><i class="material-icons">filter_none</i>Varianter:
+        <div class="trykForInfo circle-plus closed">
+          <div class="circle">
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+          </div>
+        </div>
+      </div>
     	<div class="collapsible-body"><span>
     	<ul>
 			<li>Blodappelsin</li>
@@ -81,13 +88,27 @@
     	</ul></span></div>
     </li>
          <li>
-    	<div class="collapsible-header"><i class="material-icons">restaurant</i>Ingredienser:</div>
+    	<div class="collapsible-header"><i class="material-icons">restaurant</i>Ingredienser:
+        <div class="trykForInfo circle-plus closed">
+          <div class="circle">
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+          </div>
+        </div>
+      </div>
     	<div class="collapsible-body"><span>
 		   	Rissirup, naturlige smagsstoffer, salt, konserveringsmidler, smagsforstærker.
     	</span></div>
     </li>
      <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Næringsindhold</div>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Næringsindhold:
+        <div class="trykForInfo circle-plus closed">
+          <div class="circle">
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+          </div>
+        </div>
+      </div>
       <div class="collapsible-body"><span>
       <table class="striped">
         <thead>
@@ -145,7 +166,14 @@
       </table></span></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">description</i>Beskrivelse</div>
+      <div class="collapsible-header"><i class="material-icons">description</i>Beskrivelse:
+        <div class="trykForInfo circle-plus closed">
+          <div class="circle">
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+          </div>
+        </div>
+      </div>
       <div class="collapsible-body"><span><h2>32Gi Sports gel</h2>Sports gel fra 32Gi er en unik energi gel, der er baseret på rissirup, der giver dig en tyk gel, der giver dig en stabil sukkerlevering, så du undgår høje spikes i blodsukkerniveauet. <br>
       <br>
       <b>Fakta:</b><ul>
@@ -161,7 +189,14 @@
       </ul></span></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">live_help</i>Anvendelse</div>
+      <div class="collapsible-header"><i class="material-icons">live_help</i>Anvendelse:
+        <div class="trykForInfo circle-plus closed">
+          <div class="circle">
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+          </div>
+        </div>
+      </div>
       <div class="collapsible-body"><span><b>Før træning/konkurrence:</b> Indtag en gel 15 minutter før træning eller konkurrence.<br>
       <br>
       <b>Under træning/konkurrence:</b> Indtag en gel pr. 45. minut eller efter behov. Husk at indtage ekstra vand.</span></div>
@@ -176,17 +211,23 @@
 
 </div>
 
-<footer class="row grey darken-4">
-    <address>
-      <ul>
-        <li><h2>Lav din bestilling i dag</h2></li>
-        <li><h4>Kontakt:</h4></li>
-        <li><h4>Jacob Sonne-Schmidt</h4></li>
-        <li><h4>+45 51 91 21 43</h4></li>
-        <li><h4>sonne@sost.dk</h4></li>
-      </ul>
-    </address>
-</footer>
+<section id="kontaktOplysninger" class="section scrollspy grey lighten-4">
+  <footer>
+  <div class="container">
+
+    <div class="row"><h2 class="grey-text text-darken-3">Ønsker du at blive forhandler?</h2></div>
+    <div class="row">
+      <address>
+        <ul>
+          <li><h4>Kontakt:</h4></li>
+          <li><h4>sales@32gi.dk</h4></li>
+        </ul>
+      </address>
+    </div>
+
+  </div>
+  </footer>
+</section>
 
 </main>
 
