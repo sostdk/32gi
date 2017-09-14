@@ -1,28 +1,30 @@
 
 
 $(document).ready(function(){
+	
 	$('.collapsible').collapsible();
 
-  $('.scrollspy').scrollSpy();
+	$('.scrollspy').scrollSpy();
 
-  $('.carousel').carousel();
+	$('.carousel').carousel();
 
 	$('.parallax').parallax();
 
-  $('.button-collapse').sideNav({
-      menuWidth: 200,
-      edge: 'left',
-      closeOnClick: true,
-      draggable: true,
-      onOpen: function(el) {  },
-      onClose: function(el) {  },
-    }
-  );
+	$('.button-collapse').sideNav({
+		menuWidth: 200,
+		edge: 'left',
+		closeOnClick: true,
+		draggable: true,
+		onOpen: function(el) {  },
+		onClose: function(el) {  },
+	}
+);
 
 	$('.collapsible li').on('click', function(){
-	  $(this).toggleClass('opened');
-	})
+		$(this).toggleClass('opened');
+	});
 
+	
   $(function() {
       //caches a jQuery object containing the header element
       var header = $("header");
