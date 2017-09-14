@@ -20,10 +20,22 @@ $(document).ready(function(){
 	}
 );
 
-	$('.collapsible li').on('click', function(){
-		$(this).toggleClass('opened');
-	});
+	/*$('.collapsible li').on('click', function(){
+		
+			$(this).toggleClass('opened');
+		
+			if ('.collapsible li'.hasClass('active')) {
+				$(this).toggleClass('opened');
+			}else{
+				$(this).removeClass('opened');
+			}
+	
+	});*/
+	
 
+	/*if ('.collapsible li').hasClass('opened') {
+		$(this).
+	}*/
 	
   $(function() {
       //caches a jQuery object containing the header element

@@ -6903,12 +6903,12 @@ footer ul {
   transform: rotate(-90deg);
   opacity: 1; }
 
-.opened {
+.active {
   opacity: 1; }
-  .opened .vertical {
+  .active .vertical {
     transition: all 0.5s ease-in-out;
     transform: rotate(90deg); }
-  .opened .horizontal {
+  .active .horizontal {
     transition: all 0.5s ease-in-out;
     transform: rotate(90deg);
     opacity: 0; }
