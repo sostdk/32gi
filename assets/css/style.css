@@ -6939,3 +6939,61 @@ footer ul {
   margin-left: .5px;
   top: 50%;
   margin-top: -7px; }
+
+/*LinkHover effect*/
+.hoverA {
+  position: relative; }
+  .hoverA .linkHoverContent {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/*
+.linkHover span {
+    background:#F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: auto;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: absolute;
+    text-align: left;
+    display:none;
+	top:25px;
+    right:0;left:0;
+	width:auto;
+}
+
+.linkHoverContent {
+	width:250px;
+	max-width: 250px;
+	position: relative;
+	padding:20px;
+	text-align: left;
+}
+
+.linkHover span:before {
+    content:'';
+    position:absolute;
+    top:-10px; 
+    width:10px;
+    height:10px;
+    border-top:5px solid #dfdfdf;
+    border-left:5px solid #dfdfdf;
+    background:#f8f8f8;
+    left:15%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.linkHover {
+    cursor:pointer;
+	position:relative;
+}
+
+.linkHover:hover span{
+    display:block;
+}
+*/

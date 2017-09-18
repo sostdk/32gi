@@ -17,25 +17,10 @@ $(document).ready(function(){
 		draggable: true,
 		onOpen: function(el) {  },
 		onClose: function(el) {  },
-	}
-);
-
-	/*$('.collapsible li').on('click', function(){
-		
-			$(this).toggleClass('opened');
-		
-			if ('.collapsible li'.hasClass('active')) {
-				$(this).toggleClass('opened');
-			}else{
-				$(this).removeClass('opened');
-			}
-	
-	});*/
+	});
 	
 
-	/*if ('.collapsible li').hasClass('opened') {
-		$(this).
-	}*/
+
 	
   $(function() {
       //caches a jQuery object containing the header element
@@ -113,6 +98,54 @@ $(document).ready(function(){
     $("#locations li:first").trigger("click");
 
   });
+
+
+
+$('.hoverContent').each(function(){
+     $(this).css('display', 'none');
+});
+
+
+$( ".hoverA" ).mouseover(function() {
+    
+	var id = $(this).attr('data-related');
+    
+	$('.hoverContent').each(function(){
+		if($(this).attr('id') === id){
+			$(this).css('display','block');
+		}	
+	});
+	
+  })
+	.mouseout(function() {
+    	$('.hoverContent').css('display','none');
+});
+
+
+/*$('.hoverContent').each(function(){
+     $(this).css('display', 'none');
+});
+
+
+$('a').mouseover(function(){
+	e.preventDefault();
+    var id = $(this).attr('data-related');
+	
+	$('.hoverContent').each(function(){
+		
+		if($(this).attr('id') === id) {
+			$(this).css('display', 'block');
+		}
+		
+	});
+	
+});*/
+
+
+
+
+
+
 
 
 	/*ANALYTICS*/
