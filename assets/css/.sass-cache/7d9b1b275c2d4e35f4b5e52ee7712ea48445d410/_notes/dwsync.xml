@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="_badges.scssc" server="ftp.32gi.dk" local="3588238737" remote="3585712620" Dst="-1" /><file name="_cards.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_carousel.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_chips.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_collapsible.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_dropdown.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_color.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_buttons.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_icons-material-design.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_global.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_grid.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_materialbox.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_mixins.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_modal.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_normalize.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_navbar.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_preloader.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_roboto.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_pulse.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_table_of_contents.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_slider.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_sideNav.scssc" server="ftp.32gi.dk" local="3588238738" remote="3585712620" Dst="-1" /><file name="_tabs.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_toast.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_tapTarget.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_tooltip.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_transitions.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_variables.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_typography.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /><file name="_waves.scssc" server="ftp.32gi.dk" local="3588238739" remote="3585712620" Dst="-1" /></dwsync>
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="_badges.scssc" server="ftp.32gi.dk" local="131522753151273919" remote="131551148400000000" Dst="1" />
+<file name="_cards.scssc" server="ftp.32gi.dk" local="131522753151374450" remote="131551148400000000" Dst="1" />
+<file name="_carousel.scssc" server="ftp.32gi.dk" local="131522753151414278" remote="131551148400000000" Dst="1" />
+<file name="_chips.scssc" server="ftp.32gi.dk" local="131522753151464428" remote="131551148400000000" Dst="1" />
+<file name="_collapsible.scssc" server="ftp.32gi.dk" local="131522753151504811" remote="131551148400000000" Dst="1" />
+<file name="_dropdown.scssc" server="ftp.32gi.dk" local="131522753151649914" remote="131551148400000000" Dst="1" />
+<file name="_color.scssc" server="ftp.32gi.dk" local="131522753151610069" remote="131551148400000000" Dst="1" />
+<file name="_buttons.scssc" server="ftp.32gi.dk" local="131522753151324046" remote="131551148400000000" Dst="1" />
+<file name="_icons-material-design.scssc" server="ftp.32gi.dk" local="131522753151790287" remote="131551149000000000" Dst="1" />
+<file name="_global.scssc" server="ftp.32gi.dk" local="131522753151705051" remote="131551149000000000" Dst="1" />
+<file name="_grid.scssc" server="ftp.32gi.dk" local="131522753151755463" remote="131551149000000000" Dst="1" />
+<file name="_materialbox.scssc" server="ftp.32gi.dk" local="131522753151820629" remote="131551149000000000" Dst="1" />
+<file name="_mixins.scssc" server="ftp.32gi.dk" local="131522753151855454" remote="131551149000000000" Dst="1" />
+<file name="_modal.scssc" server="ftp.32gi.dk" local="131522753151905587" remote="131551149000000000" Dst="1" />
+<file name="_normalize.scssc" server="ftp.32gi.dk" local="131522753151986093" remote="131551149000000000" Dst="1" />
+<file name="_navbar.scssc" server="ftp.32gi.dk" local="131522753151955720" remote="131551149000000000" Dst="1" />
+<file name="_preloader.scssc" server="ftp.32gi.dk" local="131522753152060996" remote="131551149000000000" Dst="1" />
+<file name="_roboto.scssc" server="ftp.32gi.dk" local="131522753152131186" remote="131551149000000000" Dst="1" />
+<file name="_pulse.scssc" server="ftp.32gi.dk" local="131522753152096361" remote="131551149000000000" Dst="1" />
+<file name="_table_of_contents.scssc" server="ftp.32gi.dk" local="131522753152261532" remote="131551149000000000" Dst="1" />
+<file name="_slider.scssc" server="ftp.32gi.dk" local="131522753152226440" remote="131551149000000000" Dst="1" />
+<file name="_sideNav.scssc" server="ftp.32gi.dk" local="131522753152181327" remote="131551149000000000" Dst="1" />
+<file name="_tabs.scssc" server="ftp.32gi.dk" local="131522753152301639" remote="131551149000000000" Dst="1" />
+<file name="_toast.scssc" server="ftp.32gi.dk" local="131522753152371825" remote="131551149000000000" Dst="1" />
+<file name="_tapTarget.scssc" server="ftp.32gi.dk" local="131522753152336734" remote="131551149000000000" Dst="1" />
+<file name="_tooltip.scssc" server="ftp.32gi.dk" local="131522753152406917" remote="131551149000000000" Dst="1" />
+<file name="_transitions.scssc" server="ftp.32gi.dk" local="131522753152442015" remote="131551149000000000" Dst="1" />
+<file name="_variables.scssc" server="ftp.32gi.dk" local="131522753152532266" remote="131551149000000000" Dst="1" />
+<file name="_typography.scssc" server="ftp.32gi.dk" local="131522753152487145" remote="131551149000000000" Dst="1" />
+<file name="_waves.scssc" server="ftp.32gi.dk" local="131522753152582385" remote="131551149000000000" Dst="1" />
+</dwsync>

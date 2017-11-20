@@ -4,7 +4,10 @@ $(document).ready(function(){
 	
 	$('.collapsible').collapsible();
 
-	$('.scrollspy').scrollSpy();
+	$('.scrollspy').scrollSpy({
+		scrollOffset: 80
+    });
+	
 
 	$('.carousel').carousel();
 
@@ -20,7 +23,19 @@ $(document).ready(function(){
 	});
 	
 
-
+  $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: false, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false // Stops event propagation
+    }
+  );
+	
+	
 	
   $(function() {
       //caches a jQuery object containing the header element
@@ -34,6 +49,29 @@ $(document).ready(function(){
               header.removeClass("background").addClass('clearHeader');
           }
       });
+  });
+	
+	
+  $('#filterOptions li a').click(function() {
+    // fetch the class of the clicked item
+    var ourClass = $(this).attr('class');
+
+    // reset the active class on all the buttons
+    $('#filterOptions li').removeClass('active');
+    // update the active state on our clicked button
+    $(this).parent().addClass('active');
+
+    if(ourClass == 'all') {
+      // show all our items
+      $('#ourHolder').children('div.item').show();
+    }
+    else {
+      // hide all elements that don't share ourClass
+      $('#ourHolder').children('div:not(.' + ourClass + ')').hide();
+      // show all elements that do share ourClass
+      $('#ourHolder').children('div.' + ourClass).show();
+    }
+    return false;
   });
 
 });
@@ -144,7 +182,25 @@ $('a').mouseover(function(){
 
 
 
+$('.filter a').click(function(e) {
+  e.preventDefault();
+  var a = $(this).attr('href');
+  a = a.substr(1);
+  $('.sets a').each(function() {
+    if (!$(this).hasClass(a) && a != 'all')
+      $(this).addClass('hide');
+    else
+      $(this).removeClass('hide');
+  });
 
+});
+
+$('.sets a').click(function(e) {
+  e.preventDefault();
+  var $i = $(this);
+  $('.sets a').not($i).toggleClass('pophide');
+  $i.toggleClass('pop');
+});
 
 
 

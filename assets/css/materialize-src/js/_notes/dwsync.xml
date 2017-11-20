@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="animation.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="buttons.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="cards.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="carousel.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="character_counter.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="chips.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="collapsible.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="dropdown.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="forms.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="global.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="hammer.min.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="initial.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="jquery.easing.1.4.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="jquery.hammer.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="materialbox.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="modal.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="parallax.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="pushpin.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="scrollFire.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="scrollspy.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="sideNav.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="slider.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="tabs.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="tapTarget.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="toasts.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="tooltip.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="transitions.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="waves.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /><file name="velocity.min.js" server="ftp.32gi.dk" local="3585719605" remote="3588304620" Dst="-1" /></dwsync>
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="animation.js" server="ftp.32gi.dk" local="131522753153849520" remote="131552094600000000" Dst="1" />
+<file name="buttons.js" server="ftp.32gi.dk" local="131522753154481202" remote="131552094600000000" Dst="1" />
+<file name="cards.js" server="ftp.32gi.dk" local="131522753154521312" remote="131552094600000000" Dst="1" />
+<file name="carousel.js" server="ftp.32gi.dk" local="131522753154611549" remote="131552094600000000" Dst="1" />
+<file name="character_counter.js" server="ftp.32gi.dk" local="131522753154676724" remote="131552094600000000" Dst="1" />
+<file name="chips.js" server="ftp.32gi.dk" local="131522753154757199" remote="131552094600000000" Dst="1" />
+<file name="collapsible.js" server="ftp.32gi.dk" local="131522753154852453" remote="131552094600000000" Dst="1" />
+<file name="dropdown.js" server="ftp.32gi.dk" local="131522753155278622" remote="131552094600000000" Dst="1" />
+<file name="forms.js" server="ftp.32gi.dk" local="131522753155378894" remote="131552094600000000" Dst="1" />
+<file name="global.js" server="ftp.32gi.dk" local="131522753155479155" remote="131552094600000000" Dst="1" />
+<file name="hammer.min.js" server="ftp.32gi.dk" local="131522753155649401" remote="131552094600000000" Dst="1" />
+<file name="initial.js" server="ftp.32gi.dk" local="131522753155684493" remote="131552094600000000" Dst="1" />
+<file name="jquery.easing.1.4.js" server="ftp.32gi.dk" local="131522753155789780" remote="131552094600000000" Dst="1" />
+<file name="jquery.hammer.js" server="ftp.32gi.dk" local="131522753155849943" remote="131552094600000000" Dst="1" />
+<file name="materialbox.js" server="ftp.32gi.dk" local="131522753155925136" remote="131552094600000000" Dst="1" />
+<file name="modal.js" server="ftp.32gi.dk" local="131522753156040441" remote="131552094600000000" Dst="1" />
+<file name="parallax.js" server="ftp.32gi.dk" local="131522753156110628" remote="131552094600000000" Dst="1" />
+<file name="pushpin.js" server="ftp.32gi.dk" local="131522753156205885" remote="131552094600000000" Dst="1" />
+<file name="scrollFire.js" server="ftp.32gi.dk" local="131522753156276308" remote="131552094600000000" Dst="1" />
+<file name="scrollspy.js" server="ftp.32gi.dk" local="131522753156361294" remote="131552094600000000" Dst="1" />
+<file name="sideNav.js" server="ftp.32gi.dk" local="131522753156442002" remote="131552094600000000" Dst="1" />
+<file name="slider.js" server="ftp.32gi.dk" local="131522753156522418" remote="131552094600000000" Dst="1" />
+<file name="tabs.js" server="ftp.32gi.dk" local="131522753156614205" remote="131552094600000000" Dst="1" />
+<file name="tapTarget.js" server="ftp.32gi.dk" local="131522753156693343" remote="131552094600000000" Dst="1" />
+<file name="toasts.js" server="ftp.32gi.dk" local="131522753156794938" remote="131552094600000000" Dst="1" />
+<file name="tooltip.js" server="ftp.32gi.dk" local="131522753156865133" remote="131552094600000000" Dst="1" />
+<file name="transitions.js" server="ftp.32gi.dk" local="131522753156940622" remote="131552094600000000" Dst="1" />
+<file name="waves.js" server="ftp.32gi.dk" local="131522753157156143" remote="131552094600000000" Dst="1" />
+<file name="velocity.min.js" server="ftp.32gi.dk" local="131522753157085965" remote="131552094600000000" Dst="1" />
+</dwsync>
