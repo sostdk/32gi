@@ -61,7 +61,7 @@ $(document).ready(function(){
     // update the active state on our clicked button
     $(this).parent().addClass('active');
 
-    if(ourClass == 'all') {
+    if(ourClass === 'all') {
       // show all our items
       $('#ourHolder').children('div.item').show();
     }

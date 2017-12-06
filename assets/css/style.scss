@@ -46,7 +46,7 @@ $bezierpath: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
 header {
 	position:fixed;
-  z-index: 9999;
+  	z-index: 9999;
   .brand-logo {
     opacity:0;
     @include transition($bezierpath);
@@ -125,6 +125,7 @@ ul#locations li.hover a.btn {
   }
 
 }
+
 
 .video-container-wrapper {
   position: absolute;
@@ -393,6 +394,9 @@ ul#filterOptions li.active a { background: #999; }
 }
 #ourHolder div.item h3 { margin-top: 10px; font-size: 16px; line-height: 20px; }
 /*- -*/
+
+.btn, .btn-large { letter-spacing: 0; }
+
 
 /*
 .linkHover span {
